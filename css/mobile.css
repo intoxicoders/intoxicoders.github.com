@@ -1,0 +1,88 @@
+@media only screen and (max-width: 600px) {
+  #side {
+    width:300px;
+    margin:20px auto;
+    text-align:center;
+    font-size:14px;
+  }
+  #logo {
+    width:200px;
+    height:200px;
+    margin:0px auto;
+  }
+  #leader {
+    margin:20px 20px;
+  }
+  #trailer {
+    
+    color:#666;
+  }
+  #list {
+    
+  }
+  .when {
+    left:0px;
+    background-color:rgb(217,0,12);
+    border-radius:4px;
+    width:80px;
+    padding:4px 0px;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    text-shadow:1px 1px black;
+    text-transform:uppercase;
+    
+  }
+  .when .month {
+    font-size:25px;
+    line-height:20px;
+  }
+  .when .date {
+    font-size:50px;
+    line-height:45px;
+  }
+  .when .time {
+    font-size:14px;
+    line-height:11px;
+  }
+  .body .title {
+    font-size:24px;
+    font-weight:bold;
+  }
+  .body .place {
+    font-size:18px;
+  }
+  .body .location {
+    display:inline-block;
+    margin-right:10px;
+  }
+  .body .address {
+    display:inline-block;
+    color:#666;
+  }
+  .body .description {
+    color:#333;
+    padding-top:5px;
+  }
+  .tags {
+    text-align:center;
+    left:0px;
+    width:80px;
+    padding:10px 0px;
+  }
+  .meta {
+    width:90px;
+    float:left;
+    height:150px;
+    max-height:150px;
+    vertical-align:top;
+  }
+  .body {
+    min-height:150px;
+    vertical-align:top;
+  }
+  .event {
+    display:block;
+    margin-bottom:25px;
+  }
+}

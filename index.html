@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="css/standard.css" />
+    <link rel="stylesheet" href="css/desktop.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/font-awesome.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="side">
+        <div id="logo">
+        </div>
+        <div id="leader">
+          A social calendar for #dctech.<br/>Emphasis on social.
+        </div>
+        <div id="trailer">
+          <p>Follow us on <a href="http://twitter.com/intoxicoders" target="_blank">Twitter</a> for new event announcements.</p>
+          New events? Let <a href="http://twitter.com/kylehill" target="_blank">@kylehill</a> or 
+          <a href="http://twitter.com/grafxnerd" target="_blank">@grafxnerd</a> know. (Or, <a href="http://github.com/intoxicoders/intoxicoders.github.com" target="_blank">submit a pull request</a> :-D)
+        </div>
+      </div>
+      <div id="list">
+      </div>
+    </div>
+    
+    <script src="libs/jquery-1.8.2.min.js"></script>
+    <script src="libs/handlebars-1.0.rc.1.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/code.js"></script>
+    
+    <script type="text/x-handlebars-template" data-template="event">
+      {{#each activeEvents}}
+      <div class="event">
+        <div class="meta">
+          <div class="when">
+            <div class="month">{{month}}</div>
+            <div class="date">{{date}}</div>
+            <div class="time">{{time}}</div>
+          </div>
+          <div class="tags">
+            {{tagger}}
+          </div>
+        </div>
+        <div class="body">
+          {{#if link}}
+          <a href="{{link}}" target="_blank"><div class="title">{{title}}</div></a>
+          {{else}}
+          <div class="title">{{title}}</div>
+          {{/if}}
+          <div class="place">
+            <div class="location">{{location}}</div>
+            {{#if address}}
+             <div class="address">{{address}}</div>
+            {{/if}}
+          </div>
+          <div class="description">
+            {{{description}}}
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </script>
+    
+    <script>
+      $(document).ready(function(){
+        Code.prepare(Code.render);
+      });
+    </script>
+  </body>
+</html>
