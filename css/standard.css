@@ -1,6 +1,10 @@
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background:url("../assets/lightpaperfibers.png");
+  background:#FAFAFA;
+}
+
+.when {
+  box-shadow:1px 1px #333;
 }
 
 .tag {
@@ -14,10 +18,15 @@ body {
   display:inline-block;
   text-shadow:1px 1px black;
   box-shadow:1px 1px #CCC;
+  vertical-align:top;
 }
 
-.tag:after {
+.mobile-tags .tag:after {
   display:block;
+}
+
+.desktop-tags .tag {
+  margin-top:5px;
 }
 
 .tag.free {

@@ -11,16 +11,17 @@
     <div id="container">
       <div id="side">
         <div id="logo">
-          <img src="assets/logo.png" />
+          <img src="assets/intoxicoders-wide.png" class="mobile" />
+          <img src="assets/intoxicoders-wide.png" class="desktop" />
         </div>
         <div id="leader">
           A social calendar for #dctech.<br/>Emphasis on social.
         </div>
-        <div id="trailer">
-          <p>Follow us on <a href="http://twitter.com/intoxicoders" target="_blank">Twitter</a> for new event announcements.</p>
-          New events? Let <a href="http://twitter.com/kylehill" target="_blank">@kylehill</a> or 
-          <a href="http://twitter.com/grafxnerd" target="_blank">@grafxnerd</a> know. (Or, <a href="http://github.com/intoxicoders/intoxicoders.github.com" target="_blank">submit a pull request</a> :-D)
-        </div>
+      </div>
+      <div id="trailer">
+        Follow us on <a href="http://twitter.com/intoxicoders" target="_blank">Twitter</a> for new event announcements.<br/>
+        New events? Let <a href="http://twitter.com/kylehill" target="_blank">@kylehill</a> or 
+        <a href="http://twitter.com/grafxnerd" target="_blank">@grafxnerd</a> know. (Or, <a href="http://github.com/intoxicoders/intoxicoders.github.com" target="_blank">submit a pull request</a> :-D)
       </div>
       <div id="list">
       </div>
@@ -40,15 +41,20 @@
             <div class="date">{{date}}</div>
             <div class="time">{{time}}</div>
           </div>
-          <div class="tags">
+          <div class="mobile-tags">
             {{tagger}}
           </div>
         </div>
         <div class="body">
           {{#if link}}
-          <a href="{{link}}" target="_blank"><div class="title">{{title}}</div></a>
+          <a href="{{link}}" target="_blank"><div class="title">{{title}}
+            <span class="desktop-tags">{{tagger}}</span>
+          </div></a>
           {{else}}
-          <div class="title">{{title}}</div>
+          <div class="title">
+            {{title}}
+            {{tagger}}
+          </div>
           {{/if}}
           <div class="place">
             <div class="location">{{location}}</div>

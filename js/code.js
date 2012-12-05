@@ -45,11 +45,11 @@ var Code = {
       for (var i = 0; i < this.tags.length; i++) {
         switch(this.tags[i]) {
           case "free":
-            tagHtml += "<div class='tag free'>Free</div><br/>"; break;
+            tagHtml += "<div class='tag free'>Free</div>"; break;
           case "beer":
-            tagHtml += "<div class='tag beer'>Beer!</div><br/>"; break;
+            tagHtml += "<div class='tag beer'>Beer!</div>"; break;
           case "bar":
-            tagHtml += "<div class='tag bar'>Bar</div><br/>"; break;
+            tagHtml += "<div class='tag bar'>Bar</div>"; break;
           default:
             break;
         }

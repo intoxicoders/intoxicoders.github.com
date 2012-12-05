@@ -1,29 +1,39 @@
 @media only screen and (min-width: 601px) {
+  body {
+    margin:0;
+    padding:0;
+  }
   #side {
-    position:absolute;
-    top:35px;
-    left:5px;
-    width:210px;
+    height:60px;
+    width:100%;
+    background-color:rgb(217,0,12);
     text-align:center;
     font-size:14px;
+    color:white;
   }
-  #logo {
-    width:200px;
-    height:100px;
-    margin:0px auto;
+  #logo .mobile {
+    display:none;
+  }
+  #logo .desktop {
+    height:60px;
+    float:left;
   }
   #leader {
-    margin:20px 0px;
+    color:white;
+    font-weight:bold;
+    float:right;
+    text-align:right;
+    margin-right:40px;
+    font-size:16px;
+    margin-top:10px;
   }
   #trailer {
+    text-align:center;
     color:#666;
+    margin-top:10px;
   }
   #list {
-    position:absolute;
-    top:35px;
-    right:25px;
-    left:225px;
-    
+    margin:20px 40px;
   }
   .when {
     left:0px;
@@ -69,21 +79,24 @@
     color:#333;
     padding-top:5px;
   }
-  .tags {
-    text-align:center;
-    left:0px;
-    width:80px;
-    padding:10px 0px;
+  .mobile-tags {
+    display:none;
+  }
+  .desktop-tags {
+    
+  }
+  .desktop-tags .tag {
+    display:inline-block;
   }
   .meta {
     width:90px;
     float:left;
-    height:150px;
-    max-height:150px;
+    height:100px;
+    max-height:100px;
     vertical-align:top;
   }
   .body {
-    min-height:150px;
+    min-height:100px;
     vertical-align:top;
   }
   .event {

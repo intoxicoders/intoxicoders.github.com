@@ -1,24 +1,33 @@
 @media only screen and (max-width: 600px) {
+  body {
+    margin:0;
+    padding:0;
+  }
   #side {
-    width:300px;
-    margin:20px auto;
+    width:100%;
     text-align:center;
     font-size:14px;
+    background-color:rgb(217,0,12);
   }
-  #logo {
-    width:200px;
+  #logo .mobile {
     height:100px;
-    margin:0px auto;
+  }
+  #logo .desktop {
+    display:none;
   }
   #leader {
-    margin:20px 20px;
+    color:white;
+    font-weight:bold;
+    font-size:16px;
+    padding-bottom:10px;
   }
   #trailer {
-    
     color:#666;
+    text-align:center;
+    margin:10px;
   }
   #list {
-    
+    margin:10px;
   }
   .when {
     left:0px;
@@ -64,11 +73,14 @@
     color:#333;
     padding-top:5px;
   }
-  .tags {
+  .mobile-tags {
     text-align:center;
     left:0px;
     width:80px;
     padding:10px 0px;
+  }
+  .desktop-tags {
+    display:none;
   }
   .meta {
     width:90px;
