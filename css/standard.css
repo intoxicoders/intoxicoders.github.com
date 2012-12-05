@@ -16,9 +16,20 @@ body {
   text-transform:uppercase;
   font-weight:bold;
   display:inline-block;
-  text-shadow:1px 1px black;
+  text-shadow:1px 1px #666;
   box-shadow:1px 1px #CCC;
   vertical-align:top;
+  background-color:rgb(150,150,150);
+}
+
+.tag.free {
+  background-color:rgb(180,150,150);
+}
+.tag.beer {
+  background-color:rgb(150,180,150);
+}
+.tag.bar {
+  background-color:rgb(150,150,180);
 }
 
 .mobile-tags .tag:after {
@@ -27,18 +38,6 @@ body {
 
 .desktop-tags .tag {
   margin-top:5px;
-}
-
-.tag.free {
-  background-color:green;
-}
-
-.tag.beer {
-  background-color:brown;
-}
-
-.tag.bar {
-  background-color:blue;
 }
 
 a {
