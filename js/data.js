@@ -91,6 +91,16 @@ var Data = {
     },
     {
       date: "12/7/2012",
+      time: "5:30 pm",
+      title: "EventStir Launch Party",
+      location: "Canvas",
+      address: "1203 19th Street NW",
+      link: "https://www.eventstir.com/events/free-launch-party-celebration",
+      tags: ["free", "beer"],
+      description: "https://www.eventstir.com/events/free-launch-party-celebration"
+    },
+    {
+      date: "12/7/2012",
       time: "6:00 pm",
       title: "DC Drunk Coders Meetup",
       location: "Tortilla Coast",
