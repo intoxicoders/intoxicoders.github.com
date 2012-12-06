@@ -88,6 +88,46 @@ var Data = {
       link: "http://www.eventbrite.com/event/4858364499/",
       tags: ["free", "beer"],
       description: "We're closing out another great year with our annual Holiday Happy Hour! This year, we'll be gathering again at Bread & Brew. We're going to put together a menu of drinks in addition to what will be available on tap. To help us celebrate, we're lining up sponsors to assist with the initial bar tab."
+    },
+    {
+      date: "12/7/2012",
+      time: "6:00 pm",
+      title: "DC Drunk Coders Meetup",
+      location: "Tortilla Coast",
+      address: "1460 P Street NW",
+      link: "http://www.meetup.com/DC-Drunk-Coders/events/92029502/",
+      tags: ["free", "bar"],
+      description: "(I don't really know what this is, but it sounds like it's within our core competency.)"
+    },
+    {
+      date: "12/13/2012",
+      time: "6:00 pm",
+      title: "Affinity Lab Happy Hour",
+      location: "Affinity Lab",
+      address: "920 U Street NW",
+      link: "https://www.facebook.com/events/563401350341958/",
+      tags: ["free", "beer"],
+      description: "Tis the season to gather for holiday greetings & the Lab is opening it's doors to all of our friends!"
+    },
+    {
+      date: "12/13/2012",
+      time: "6:00 pm",
+      title: "DC API Users Meetup",
+      location: "Phase 2",
+      address: "1330 Braddock Place, 7th floor, Alexandria, VA",
+      link: "http://www.meetup.com/DC-Web-API-User-Group/events/93049282/",
+      tags: ["free", "beer"],
+      description: "Welcome to the inaugural meetup of the DC Web API User Group! Come meet and network with fellow practitioners, industry thought leaders, and API enthusiasts."
+    },
+    {
+      date: "12/13/2012",
+      time: "7:00 pm",
+      title: "DC jQuery Meetup",
+      location: "Fathom Creative",
+      address: "1333 14th Street NW",
+      link: "http://www.meetup.com/DC-jQuery-Users-Group/events/91041372/",
+      tags: ["free", "beer"],
+      description: "jQuery back to basics, part 2"
     }
   ],
   activeEvents: []
