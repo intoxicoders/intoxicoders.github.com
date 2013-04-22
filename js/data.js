@@ -138,6 +138,16 @@ var Data = {
       link: "http://www.meetup.com/DC-jQuery-Users-Group/events/91041372/",
       tags: ["free", "beer"],
       description: "jQuery back to basics, part 2"
+    },
+    {
+      date: "04/30/2013",
+      time: "7:00 pm",
+      title: "The art of the browser",
+      location: "iStrategyLabs",
+      address: "1630 Connecticut Ave NW, 7th Floor (Hillyer Place), Washington, DC 20009",
+      link: "http://intoxicoders-apr30.eventbrite.com/",
+      tags: ["free", "beer"],
+      description: "What modern browsers and front-end devs can do with just HTML and a bit of Javascript."
     }
   ],
   activeEvents: []
